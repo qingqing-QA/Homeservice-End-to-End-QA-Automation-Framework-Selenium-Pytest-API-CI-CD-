@@ -1,15 +1,24 @@
-# Homecleaning Automation Testing Framework
+# 🧹 Homeservice End-to-End QA Automation Framework
 
-This project is an automated testing framework for Homecleaning web applications using Python, Selenium, and Pytest.
+## 🚀 Overview
+End-to-end automation testing framework for home service web applications.
 
-## Features
-- Page Object Model (POM) design
-- Configurable settings via `config.yaml`
-- Cross-browser support
-- Generates HTML test reports
+## 🔧 Tech Stack
+- Python
+- Selenium
+- Pytest
+- Requests (API Testing)
+- GitHub Actions (CI/CD)
 
-## Installation
+## ✨ Features
+- Page Object Model (POM)
+- UI Automation Testing
+- API Testing
+- CI/CD Integration
+- HTML Test Reports
+
+## ▶️ How to Run
+
 ```bash
-git clone [https://github.com/qingqing-QA/homecleaning-automation-testing.git]
-cd homecleaning-automation-testing
 pip install -r requirements.txt
+pytest
