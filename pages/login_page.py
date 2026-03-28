@@ -2,8 +2,8 @@ from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
 class LoginPage(BasePage):
-    USERNAME = (By.ID, "username")
-    PASSWORD = (By.ID, "password")
+    USERNAME = (By.ID, "admin")
+    PASSWORD = (By.ID, "admin123")
     LOGIN_BTN = (By.ID, "loginBtn")
 
     def login(self, username, password):
