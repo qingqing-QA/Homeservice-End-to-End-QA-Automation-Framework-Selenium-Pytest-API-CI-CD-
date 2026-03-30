@@ -1,6 +1,7 @@
 import logging
 import os
 from datetime import datetime
+from pages.login_page import LoginPage
 
 def get_logger(name="automation"):
     """
