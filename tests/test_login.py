@@ -1,7 +1,7 @@
 from pages.login_page import LoginPage
 
 def test_login(driver):
-    driver.get("http://localhost/database_javascript/project1/Frontend/index.html")
+    driver.get("http://www.google.com")
 
     login_page = LoginPage(driver)
     login_page.login("admin", "admin123")
