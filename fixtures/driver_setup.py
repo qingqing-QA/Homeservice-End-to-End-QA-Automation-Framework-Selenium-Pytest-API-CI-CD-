@@ -16,7 +16,7 @@ def driver():
         options=options
     )
 
-    driver.get("https://example.com")
+    driver.get("https://www.google.com")
 
     yield driver
     driver.quit()
