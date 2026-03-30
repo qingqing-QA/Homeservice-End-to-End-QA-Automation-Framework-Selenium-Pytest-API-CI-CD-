@@ -1,4 +1,5 @@
 from api.api_client import APIClient
+from pages.login_page import LoginPage
 
 client = APIClient()
 
